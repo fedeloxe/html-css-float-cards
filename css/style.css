@@ -41,11 +41,15 @@ main{
     float: left;
     width: calc(100%/3);
     
-}
-
-.card{
     
 }
+
+img{
+    float: left;
+    width: 100px;
+}
+
+
 
 .clearfix::after{
     content: "";
@@ -53,5 +57,10 @@ main{
     clear: both;
 }
 
+.cont-card{
+    background-color: black;
+    color: white;
+   
+}
 
 
