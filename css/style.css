@@ -40,7 +40,11 @@ main{
 .row .card{
     float: left;
     width: calc(100%/4);
-    margin-top: 30px;   
+    margin-top: 30px; 
+    box-shadow:  5px  5px 5px lightgray,
+                -5px -5px 5px lightgray,
+                 5px -5px 5px lightgray,
+                -5px  5px 5px lightgray;  
 }
 
 .col2{
@@ -66,6 +70,7 @@ img{
     background-color: black;
     color: white;
     height: 100px;
+    line-height: 2;
 }
 
 span{
@@ -76,4 +81,7 @@ a{
     color: aqua;
 }
 
+h4{
+    font-size: large  ;
+}
 
