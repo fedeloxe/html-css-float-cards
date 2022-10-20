@@ -8,7 +8,26 @@
 
 /*header*/
 
+header{
+    width: 80%;
+    margin: 25px auto;
+}
+
 h1{
     text-align: center;
     color: deeppink ;
+}
+
+
+main{
+    width: 80%;
+    margin: 30px auto;
+}
+
+/*text1*/
+.text1{
+    margin: 0px auto;
+    text-align: center;
+
+
 }
