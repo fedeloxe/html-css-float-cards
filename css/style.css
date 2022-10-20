@@ -30,7 +30,22 @@ main{
     text-align: center;
 }
 
-.cardmaster{
-    margin-top: 35px;
+/*row*/
 
+
+
+.cardmaster{
+    margin-top: 45px;   
 }
+.row .card{
+    float: left;
+    width: calc(100%/3);
+    
+}
+
+.card{
+    
+}
+
+
+
