@@ -39,9 +39,14 @@ main{
 }
 .row .card{
     float: left;
-    width: calc(100%/3);
-    
-    
+    width: calc(100%/4);
+    margin-top: 30px;   
+}
+
+.col2{
+    margin-left: calc(25%/2);
+    margin-right: calc(25%/2);
+
 }
 
 img{
@@ -60,7 +65,15 @@ img{
 .cont-card{
     background-color: black;
     color: white;
-   
+    height: 100px;
+}
+
+span{
+    display: block;
+}
+
+a{
+    color: aqua;
 }
 
 
