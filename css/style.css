@@ -39,19 +39,16 @@ main{
 }
 .row .card{
     float: left;
-    width: calc(100%/4);
-    margin-top: 30px; 
+    width: calc(100%/3 - 20px);
+    
+    margin: 10px; 
     box-shadow:  5px  5px 5px lightgray,
                 -5px -5px 5px lightgray,
                  5px -5px 5px lightgray,
                 -5px  5px 5px lightgray;  
 }
 
-.col2{
-    margin-left: calc(25%/2);
-    margin-right: calc(25%/2);
 
-}
 
 img{
     float: left;
